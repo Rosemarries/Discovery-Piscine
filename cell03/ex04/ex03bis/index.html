@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <title>To do</title>
+
+    <style>
+        #ft_list {
+            width: 500px;
+            height: 300px;
+            border: 1px solid black;
+            overflow: scroll;
+        }
+
+        .todo {
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid gray;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ft_list"></div>
+    <button id="new-button">New</button>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>

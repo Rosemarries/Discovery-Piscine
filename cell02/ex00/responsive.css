@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+td {
+    border: grey solid 1px;
+    word-wrap: break-word;
+}
+
+#item1 {
+    background-color: #c3c77e;
+}
+
+#item2 {
+    background-color: #f9c4af;
+}

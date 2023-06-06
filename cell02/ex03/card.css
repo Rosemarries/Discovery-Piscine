@@ -1,0 +1,59 @@
+* {
+    margin: auto;
+    text-align: center;
+    line-height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+h1 {
+    line-height: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 300px;
+    padding: 0;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.level {
+    color: grey;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    width: fit-content;
+}
+
+.social img {
+    height: 3vh;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    border: 0;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+@media (max-width: 120px) {
+    .social {
+        flex-direction: column;
+    }
+}
